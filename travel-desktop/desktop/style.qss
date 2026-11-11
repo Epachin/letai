@@ -1,0 +1,40 @@
+QMainWindow, QWidget#root { background: #f3f6fc; color: #15213c; }
+QWidget { font-family: "Segoe UI", Arial; font-size: 13px; }
+QFrame#header { background: #112766; border: none; }
+QLabel#logo { color: #ffffff; font-size: 26px; font-weight: 800; }
+QLabel#headerText { color: #c8d8ff; font-size: 13px; }
+QLabel#heading { color: #112766; font-size: 25px; font-weight: 800; }
+QLabel#subheading { color: #6d7996; font-size: 13px; }
+QLabel#price { color: #112766; font-size: 24px; font-weight: 800; }
+QLabel#small { color: #74809a; font-size: 12px; }
+QLabel#badge { color: #0756ab; background: #e7f1ff; border-radius: 9px; padding: 4px 8px; }
+QLabel#good { color: #138250; font-weight: 700; }
+QLabel#star { color: #f0a100; font-weight: 700; }
+QFrame#panel, QFrame#offer { background: white; border: 1px solid #e1e8f5; border-radius: 17px; }
+QFrame#hotelIcon { background: #e1efff; border: none; border-radius: 15px; }
+QLabel#hotelGlyph { font-size: 40px; color: #3275d8; }
+QTabWidget::pane { border: 0; background: #f3f6fc; }
+QTabBar::tab { border: 0; color: #bacdf7; background: #112766; padding: 17px 26px; font-weight: 700; }
+QTabBar::tab:selected { color: white; border-bottom: 3px solid #ffbf23; }
+QTabBar::tab:hover { color: white; }
+QTabBar { background: #112766; }
+QPushButton { background: #eef2fc; border: 1px solid #d9e2f2; border-radius: 9px;
+  padding: 10px 16px; color: #193169; font-weight: 700; }
+QPushButton:hover { background: #e0eaff; }
+QPushButton:pressed { background: #d0e1ff; }
+QPushButton:disabled { color: #9fa9bf; background: #eff1f5; }
+QPushButton#primary { background: #ffcc40; border: 0; color: #1c2b50; font-weight: 800; }
+QPushButton#primary:hover { background: #ffdb70; }
+QPushButton#nav { background: transparent; border: none; text-align: left; }
+QPushButton#danger { color: #aa3150; background: #fff4f4; border: 1px solid #ffe0e5; }
+QPushButton#headerAction { background: #284582; border: 1px solid #5372af; color: #ffffff; }
+QPushButton#headerAction:hover { background: #35579b; }
+QLineEdit, QComboBox, QDateEdit, QSpinBox {
+  background: #fff; border: 1px solid #ced9ed; border-radius: 9px;
+  padding: 9px 11px; color: #1a2a45; min-height: 22px; }
+QLineEdit:focus, QComboBox:focus, QDateEdit:focus { border: 1px solid #448aff; }
+QScrollArea { border: none; background: transparent; }
+QScrollBar:vertical { background: #f3f6fc; width: 10px; }
+QScrollBar::handle:vertical { background: #cbd8ec; border-radius: 5px; }
+QDialog { background: #f3f6fc; }
+QMessageBox { background: #fff; }
